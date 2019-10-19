@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css?family=Old+Standard+TT|Playfair+Display&display=swap");
+
+body{margin:  35px 35px 30px;
+  background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=62);
+   background-color: #f4f4e2;
+  word-break: break-all;
+  -webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+}
+section{
+  border-style: none none solid none;
+ border-width: 1.5px;
+}
+
+article{
+  margin-top: 15px;
+  -webkit-column-width: 170px;
+  -moz-column-width: 170px;
+  column-width: 170px;
+  -webkit-column-gap: 1em;
+     -moz-column-gap: 1em;
+          column-gap: 1em;
+   -webkit-column-rule: 1px solid  rgb(36,35,35) ; 
+  -moz-column-rule: 1px solid rgb(36,35,35); 
+  column-rule: 1px solid rgb(36,35,35);
+}
+h1{
+ font-family: 'Playfair Display', serif;
+ font-size: 30px;
+ font-weight: 800;
+ color: rgb(36,35,35);
+ text-transform: uppercase;
+ text-align: center;
+ border-style: solid none solid none;
+ border-width: 1.5px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+font-size: 50px;
+line-height: 72px;
+font-size: 60px;
+
+}
+
+h2,h3{
+  margin: 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+    color: rgb(36,35,35);
+ text-align: left;
+ margin-top: 0px;
+ border-width: 1.5px;
+}
+
+h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 25px
+  color: rgb(36,35,35);
+  
+
+}
+
+h5,h6{
+  font-family: 'Playfair Display', serif;
+  color: rgb(36,35,35);
+  font-size: 16px;
+  margin: 0;
+  padding: 10px;
+  
+}
+h4{font-family: 'Playfair Display', serif;
+  color: rgb(36,35,35);
+  text-align: center;
+  color: rgb(36,35,35);
+  font-size: 20px;
+  margin: 0;
+  padding: 10px;
+}
+
+img{max-width: 92%;
+  max-height: auto;
+  object-fit: contain;
+  filter: gray; 
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  filter: grayscale(100%);
+  border-style: dotted;
+padding: 3%;}
+
+p{ text-align:justify;
+  font-family: 'Old Standard TT', serif;
+  color: rgb(36,35,35);
+  font-size: 15px ;
+text-indent: 10%;
+margin: 1px;
+}
+
+figcaption{
+  font-family: 'Old Standard TT', serif;
+  font-size: 15px ;
+  text-align: justify;
+  color: rgb(36,35,35);
+  border-color: #000000;
+  border-width: 1px; 
+  border-style: solid none solid none;
+  margin: 10px 0px 10px;
+  text-indent: 10%;
+}
+
+figure{
+  margin: 0px;
+}
+
+blockquote{
+  text-align:justify;
+  font-family: 'Old Standard TT', serif;
+  font-size: 15px ;
+  color: rgb(36,35,35);
+  border-color: #000000;
+  border-width: 1px; 
+  border-style: solid none solid none;
+  margin: 10px 0px 10px;
+  text-indent: 10%;
+}
+
+a:link, a:visited {
+    text-decoration: underline;
+    color: black;
+    background-color: transparent;
+}
+a:visited {
+    text-decoration: underline;
+    color: rgb(36,35,35);
+    background-color: transparent;
+}
+a:hover, a:active {
+    text-decoration: underline overline;
+    color: #aaa;
+}
+
+article h3{
+  font-family: 'Old Standard TT', serif;
+  font-size: 18px ;
+  color: rgb(36,35,35);
+  border-style: dotted;
+padding: 3%;
+  margin: 10px 0px 10px;
+  text-indent: 10%;
+}
+
+caption{
+    text-align:justify;
+  font-family: 'Old Standard TT', serif;
+  color: rgb(36,35,35);
+  font-size: 15px ;
+text-indent: 10%;
+margin: 1px;
+}
+
+table, th, td {
+  border: 1px solid grey;
+  border-spacing: 0;
+  margin: 5px;
+  font-family: 'Old Standard TT', serif;
+  font-size: 15px ;
+  text-align: justify;
+  color: rgb(36,35,35);
+}
+
+ol,ul,li{
+  font-family: 'Old Standard TT', serif;
+  font-size: 15px ;
+  text-align: justify;
+  color: rgb(36,35,35);
+  margin: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+.oneColumn {
+  column-count: 1;
+}  
+
+#right {
+ float: right;
+}
+#left, #right {
+  display:inline-block;
+  vertical-align:top;
+  width: 45%;
+  margin: 5px;
+};
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+.lHighlight, .rHighlight{
+  background-color:#ccc;
+}
+
+#titlesec, #titlesec1{
+  border-style: none none solid none;
+ border-width: 1.5px;
+}
+
+.textsec{
+        margin-top: 15px;
+  -webkit-column-width: 170px;
+  -moz-column-width: 170px;
+  column-width: 170px;
+  -webkit-column-gap: 1em;
+     -moz-column-gap: 1em;
+          column-gap: 1em;
+   -webkit-column-rule: 1px solid  #000000 ; 
+  -moz-column-rule: 1px solid #000000 ; 
+  column-rule: 1px solid #000000;
+}
+
+.special{
+   -webkit-column-span: all; 
+  column-span: all;
+}
+

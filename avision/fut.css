@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+@import url("https://fonts.googleapis.com/css?family=MedievalSharp");
+@media only screen and (min-width:7680px) { body {max-width: 100%;}
+ }
+body {font-family: "Audiowide";
+background-image: url("9.png"), url("glitch5.png");
+background-repeat: no-repeat, repeat;
+background-size: 40%, 100%;
+background-position: bottom right, center;
+color: white;
+text-align: left;
+padding:5%;
+
+}
+img {filter: saturate(5); 
+  width: 50%;
+
+ 
+}
+
+a {
+	color: grey;
+}
+figcaption {
+	float: right;
+	width: 30%;
+	text-align: justify;
+	padding-left: 0.7%;
+	font-family: 'Revalia';
+	border: 2px inset #C0C0C0;
+	border-radius: 10px;
+	text-shadow:0px 0px 10px #C0C0C0;
+}
+h1 {font-family: 'Revalia';
+	font-size: 400%;
+	animation-name: heading;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	text-align: center;
+	padding-bottom: 3%;
+
+
+}
+h2, h3, h4, h5, h6 {
+	font-family: 'Revalia';
+	text-decoration: underline overline double #C0C0C0;
+	text-shadow: 0px 0px 10px #C0C0C0;
+	width: 50%;
+}
+
+@keyframes heading {
+	from { text-shadow: -1px -1px 0, 1px -1px 0;}
+		to {text-shadow:-1px -1px 0, 1px -1px 0, -1px 1px 0, 1px 1px 0, 
+			1px 0px 0px black, 0px 1px 0px black, 2px 1px 0px black, 1px 2px 0px black, 3px 2px 0px black, 2px 3px 0px black, 4px 3px 0px black, 3px 4px 0px black, 5px 4px 0px black,
+			3px 5px 0px white, 6px 5px 0px white, 
+			-1px 2px 0 white, 0 3px 0 white, 1px 4px 0 white, 2px 5px 0px white,
+			2px -1px 0 white, 3px 0 0 white, 4px 1px 0 white, 5px 2px 0px white, 6px 3px 0 white, 7px 4px 0 white;
+	color: white;
+	font-weight: bold;}
+}
+
+h5 {font-weight: bold;
+}
+
+p {
+  width: 50%;
+   margin: 0 auto;
+   display: inline-block;
+   text-align: justify;
+   margin-bottom: 0.7%;
+
+}
+
+blockquote { float: right;
+	
+font-size: 120%;
+width:16%;
+padding: 5%;
+word-wrap: break-word;
+text-shadow: 0px 0px 10px #C0C0C0; 
+writing-mode: vertical-lr;
+text-orientation: upright;
+font-family: monospace;
+}
+
+table {
+	position: relative;
+	width: 30%;
+	
+	border-collapse: collapse;
+	
+
+
+}
+
+th, td {border-bottom: 1px solid #C0C0C0;
+
+}
+#left, #right {
+  display:inline-block;
+  vertical-align:top;
+  width: 45%;
+  margin: 5px;
+};
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+.lHighlight, .rHighlight{
+  background-color:#ccc;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+
+
+
+
+  

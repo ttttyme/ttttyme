@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+@import url("https://fonts.googleapis.com/css?family=Revalia");
+@import url("https://fonts.googleapis.com/css?family=MedievalSharp");
+@media only screen and (min-width:7680px) { body {max-width: 100%;}
+ }
+
+body {font-family: "Orbitron";
+background-image: url("9.png"), url("glitch5.png");
+background-repeat: no-repeat, repeat;
+background-size: 40%, 100%;
+background-position: bottom right, center;
+color: white;
+}
+
+#left, #right {
+  display:inline-block;
+  vertical-align:top;
+  width: 45%;
+  margin: 5px;
+};
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+.lHighlight, .rHighlight{
+  background-color:#ccc;
+}
+
+table, th, td {
+  width: 30%
+  border: 1px solid black;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;

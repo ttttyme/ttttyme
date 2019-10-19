@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=MedievalSharp");
+@import url("https://fonts.googleapis.com/css?family=Uncial Antiqua");
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+@media only screen and (min-width:7680px) { body {max-width: 100%;}
+ }
+@page { size: 480mm 323mm; }
+
+p:first-of-type::first-letter {
+  font-size: 400%;
+  color: #8B0000;
+}
+
+.oneColumn {
+  column-count: 1;
+}	 
+
+#right {
+ float: right;
+}
+
+img { 
+  width: 70%;
+filter:grayscale(150%);
+border: 3px solid black;
+
+}
+figure {
+  display: block;
+   break-inside: avoid;
+}
+
+body { 
+  font-family: MedievalSharp; 
+  background-color: #F0E68C;
+	background-image: url("top2.png"), url("top2.png"), url("hall.jpg"), url("hall2.jpg"), url("ms.jpg");
+	background-repeat: no-repeat, no-repeat, repeat-y, repeat-y, repeat;
+  background-position: top, bottom, left, right;
+	background-size: 50%, 50%, 5%, 5%, 200%;
+
+    padding-top: 11.1%;
+  padding-bottom: 22.2%;
+  padding-right: 11.1%;
+  padding-left: 11.1%;
+  
+ 
+} 
+p {
+  text-align: left;
+  width: 80%
+
+
+ }
+
+h1 {text-align: center;
+  font-size: 250%;
+  column-span: all;
+  font-family: "Uncial Antiqua";
+  border: 3px solid #8B0000;
+  color: #8B0000;
+
+}
+
+blockquote { float: left;
+  margin: 0;
+  padding: 2.9%;
+font-size: 120%;
+color: #8B0000;
+width: 33.4%;
+word-wrap: break-word;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {border-bottom: 1px solid #8B0000;
+
+}
+
+figcaption {
+  color:#8B0000 ;
+  font-family: "Uncial Antiqua";
+  font-size: 80%;
+  text-align: justify;
+  width: 80%;
+}
+
+h2, h3, h4, h5, h6 {
+ text-decoration: underline #8B0000;
+ font-family: "Uncial Antiqua";
+}
+
+#left, #right {
+  display:inline-block;
+  vertical-align:top;
+  width: 45%;
+  margin: 5px;
+};
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+.lHighlight, .rHighlight{
+  background-color:#ccc;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
